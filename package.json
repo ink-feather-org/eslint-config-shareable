@@ -1,13 +1,13 @@
 {
   "private": false,
-  "name": "@feather-ink/eslint-config-shareable",
-  "version": "1.0.1",
-  "main": "index.js",
   "author": "raldone01",
   "description": "Shareable eslint-config contains overrides to customize eslint to my liking.",
   "homepage": "feather.ink",
   "license": "GPL-3.0-only",
   "repository": "https://github.com/raldone01/eslint-config-shareable",
+  "name": "@feather-ink/eslint-config-shareable",
+  "version": "1.0.2",
+  "main": "index.js",
   "scripts": {
     "build": "",
     "clean": ""

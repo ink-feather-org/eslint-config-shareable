@@ -8,7 +8,7 @@ module.exports = {
     'plugin:promise/recommended'
   ],
   rules: {
-    // Remember to change in .editorconfig also, although am not sure if that file is even needed?
+    // Remember to change in .editorconfig also, although I am not sure if that file is even needed?
     'max-len': [
       'error',
       {
@@ -24,6 +24,7 @@ module.exports = {
     'semi': ['error', 'never'],
     'no-param-reassign': 'off',
     'comma-dangle': ['error', 'never'],
+    '@typescript-eslint/comma-dangle': ['error', 'never'],
     'quote-props': 'off',
     'arrow-parens': 'off',
     'nonblock-statement-body-position': ['error', 'below'],
