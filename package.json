@@ -1,6 +1,5 @@
 {
   "private": false,
-  "readme": "README.adoc",
   "author": "raldone01",
   "description": "Shareable eslint-config contains overrides to customize eslint to my liking.",
   "homepage": "feather.ink",
