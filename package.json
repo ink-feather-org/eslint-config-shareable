@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "@feather-ink/eslint-config-shareable",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "author": "raldone01",
   "description": "Shareable eslint-config contains overrides to customize eslint to my liking.",
