@@ -3,7 +3,7 @@
   "author": "raldone01",
   "description": "Shareable eslint-config contains overrides to customize eslint to my liking.",
   "homepage": "feather.ink",
-  "license": "GPL-3.0-only",
+  "license": "GPL-3.0-or-later",
   "publishConfig": [
     {
       "registry": "https://registry.npmjs.org/"
