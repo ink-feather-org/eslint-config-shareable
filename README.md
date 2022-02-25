@@ -1,4 +1,4 @@
-# @feather-ink/eslint-config-shareable
+# @ink-feather-org/eslint-config-shareable
 
 This only contains rule overrides and is meant to be applied after an airbnb-like config.
 

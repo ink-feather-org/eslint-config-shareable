@@ -1,11 +1,11 @@
-=  @feather-ink/eslint-config-shareable
+=  @ink-feather-org/eslint-config-shareable
 == What is this?
 
 This only contains rule overrides and is meant to be applied after an airbnb-like config.
 
 == Vue Setup
 
-`pnpm add -D @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslint-plugin-functional eslint-plugin-import eslint-plugin-node eslint-plugin-promise eslint-plugin-vue typescript vue-eslint-parser webpack @feather-ink/eslint-config-shareable`
+`pnpm add -D @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslint-plugin-functional eslint-plugin-import eslint-plugin-node eslint-plugin-promise eslint-plugin-vue typescript vue-eslint-parser webpack @ink-feather-org/eslint-config-shareable`
 
 === .eslintrc.js
 
@@ -36,7 +36,7 @@ module.exports = {
 
 == Only typescript Setup
 
-`pnpm add -D @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslint-plugin-functional eslint-plugin-import eslint-plugin-node eslint-plugin-promise typescript vue-eslint-parser eslint-config-airbnb-typescript @feather-ink/eslint-config-shareable`
+`pnpm add -D @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslint-plugin-functional eslint-plugin-import eslint-plugin-node eslint-plugin-promise typescript vue-eslint-parser eslint-config-airbnb-typescript @ink-feather-org/eslint-config-shareable`
 
 === .eslintrc.js
 
