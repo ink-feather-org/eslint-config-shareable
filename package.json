@@ -6,7 +6,7 @@
   "license": "GPL-3.0-only",
   "repository": "https://github.com/raldone01/eslint-config-shareable",
   "name": "@feather-ink/eslint-config-shareable",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "index.js",
   "scripts": {
     "build": "",
