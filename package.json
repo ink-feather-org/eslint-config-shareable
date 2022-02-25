@@ -9,7 +9,7 @@
   },
   "repository": "https://github.com/ink-feather-org/eslint-config-shareable",
   "name": "@ink-feather-org/eslint-config-shareable",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "index.js",
   "scripts": {
     "build": "",
