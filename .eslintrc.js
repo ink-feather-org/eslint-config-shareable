@@ -2,21 +2,31 @@
 module.exports = {
   root: true,
   env: {
-    node: true
+    browser: true,
+    node: true,
+    jasmine: true,
+    jest: true,
+    es6: true,
   },
   parser: '@typescript-eslint/parser',
   parserOptions: {
-    ecmaVersion: 2020,
-    project: './tsconfig.json'
+    ecmaVersion: 6,
+    project: './tsconfig.json',
+    sourceType: 'module',
+    ecmaFeatures: {
+      modules: true,
+      experimentalObjectRestSpread: true,
+    },
   },
   extends: [
+    'eslint:recommended',
     'airbnb-typescript/base',
     'plugin:@typescript-eslint/recommended',
-    './index.js'
+    './index.js',
   ],
   plugins: [
     'import',
     'node',
-    'promise'
-  ]
+    'promise',
+  ],
 }

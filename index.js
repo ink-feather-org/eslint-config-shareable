@@ -11,7 +11,7 @@ module.exports = {
     'plugin:import/warnings',
     'plugin:import/typescript',
     'plugin:node/recommended-module',
-    'plugin:promise/recommended'
+    'plugin:promise/recommended',
   ],
   rules: {
     // Remember to change in .editorconfig also, although I am not sure if that file is even needed?
@@ -20,30 +20,42 @@ module.exports = {
       {
         code: 1024,
         ignoreComments: true,
-        ignoreUrls: true
-      }
+        ignoreUrls: true,
+      },
     ],
     'curly': 'off',
     'no-inner-declarations': 'off',
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-    'semi': ['error', 'never'],
+    'semi': ['error', 'never', ],
     'no-param-reassign': 'off',
-    'comma-dangle': ['error', 'never'],
-    '@typescript-eslint/comma-dangle': ['error', 'never'],
+    'comma-dangle': ['error', {
+      'arrays': 'always',
+      'objects': 'always',
+      'imports': 'never',
+      'exports': 'never',
+      'functions': 'never',
+    }, ],
+    '@typescript-eslint/comma-dangle': ['error', {
+      'arrays': 'always',
+      'objects': 'always',
+      'imports': 'never',
+      'exports': 'never',
+      'functions': 'never',
+    }, ],
     'quote-props': 'off',
     'arrow-parens': 'off',
-    'nonblock-statement-body-position': ['error', 'below'],
+    'nonblock-statement-body-position': ['error', 'below', ],
     // https://github.com/airbnb/javascript/issues/1271#issuecomment-548688952
     'no-restricted-syntax': [
       'error',
       {
         selector: 'WithStatement',
-        message: '`with` is disallowed in strict mode because it makes code impossible to predict and optimize.'
-      }
+        message: '`with` is disallowed in strict mode because it makes code impossible to predict and optimize.',
+      },
     ],
-    'no-unused-vars': ['error', { 'vars': 'all', 'args': 'none' }],
-    '@typescript-eslint/no-unused-vars': ['error', { 'vars': 'all', 'args': 'none' }],
+    'no-unused-vars': ['error', { 'vars': 'all', 'args': 'none', }, ],
+    '@typescript-eslint/no-unused-vars': ['error', { 'vars': 'all', 'args': 'none', }, ],
     'no-plusplus': 'off',
     'import/extensions': 'off',
     '@typescript-eslint/ban-ts-comment': 'off',
@@ -67,8 +79,8 @@ module.exports = {
     'promise/param-names': 'off',
     'node/no-unsupported-features/es-syntax': 'off',
     'promise/always-return': 'off',
-    'import/no-unresolved': ['error', { ignore: ['pkg'] }],
+    'import/no-unresolved': ['error', { ignore: ['pkg', ], }, ],
     '@typescript-eslint/no-throw-literal': 'off',
-    'no-bitwise': 'off'
-  }
+    'no-bitwise': 'off',
+  },
 }

@@ -14,7 +14,7 @@
   ],
   "repository": "https://github.com/ink-feather-org/eslint-config-shareable",
   "name": "@ink-feather-org/eslint-config-shareable",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "main": "index.js",
   "scripts": {
     "prepublishOnly": "npm-multi-publish",
