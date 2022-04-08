@@ -1,6 +1,7 @@
 =  @ink-feather-org/eslint-config-shareable
 == What is this?
 
+Eslint shareable config used in most ink-feather-org projects.
 This only contains rule overrides and is meant to be applied after an airbnb-like config.
 
 == Vue Setup

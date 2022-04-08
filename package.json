@@ -1,7 +1,7 @@
 {
   "private": false,
   "author": "raldone01",
-  "description": "Shareable eslint-config contains overrides to customize eslint to my liking.",
+  "description": "Eslint shareable config used in most ink-feather-org projects.",
   "homepage": "feather.ink",
   "license": "GPL-3.0-or-later",
   "publishConfig": [
