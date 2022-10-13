@@ -1,18 +1,26 @@
 {
   "compilerOptions": {
-    "experimentalDecorators": true,
-    "target": "ES2019",
-    "module": "commonjs",
-    "types": ["node"],
-    "strict": true,
-    "importHelpers": true,
-    "moduleResolution": "node",
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "sourceMap": true,
     "baseUrl": ".",
+    "outDir": "./dist",
+    "module": "ESNext",
+    "target": "ES6",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+    "strict": true,
     "noImplicitAny": true,
+    "noImplicitOverride": true,
+    "noImplicitThis": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "stripInternal": true,
+    "resolveJsonModule": true,
     "downlevelIteration": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
     "lib": [
       "esnext",
       "dom",
@@ -26,5 +34,5 @@
   ],
   "exclude": [
     "node_modules"
-  ]
+  ],
 }
